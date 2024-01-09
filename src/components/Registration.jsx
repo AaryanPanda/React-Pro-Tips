@@ -100,7 +100,7 @@ function Registration() {
         />
         {formErr.phone && <p className="error">{formErr.phone}</p>}
 
-        <input id="submit" type="submit" value="Submit" />
+        <input id="submit" type="submit" value="Register" />
       </form>
     </div>
   );
